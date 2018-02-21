@@ -8,7 +8,7 @@ class Mycog:
         self.bot = bot
 
     @commands.command()
-    async def mycom(self):
+    async def punch(self, user : discord.Member):
         """This does stuff!"""
 
         await self.bot.say("I can do stuff!")
